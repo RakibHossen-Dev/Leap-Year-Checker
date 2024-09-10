@@ -1,0 +1,60 @@
+body {
+  background-color: #63a149;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.leap {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  gap: 10px;
+  border-radius: 25px 0;
+}
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+input {
+  padding: 8px 10px;
+}
+input:focus {
+  border: 2px solid dodgerblue;
+  outline: none;
+}
+button {
+  background-color: dodgerblue;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5;
+  color: #ffff;
+}
+button:hover {
+  background-color: #0ef;
+  color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: dodgerblue;
+}
+#output {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .age {
+    width: 85%;
+  }
+}
